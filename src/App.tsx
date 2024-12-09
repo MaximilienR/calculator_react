@@ -26,7 +26,7 @@ function App() {
 
   const [output, setOutput] = React.useState('');
 
-  const handle_click = (button) => {
+  const handle_click = (button: string) => {
     if (button === "=") {
       try {
         const result = eval(output);
